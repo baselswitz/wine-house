@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wine House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/video/vineyard-bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🍷 Wine House</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#wines">Our Wines</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to Wine House</h1>
+    <p>Crafting elegance in every bottle since 1980</p>
+    <a href="#wines" class="btn">Explore Our Collection</a>
+  </section>
+
+  <!-- Wines Section -->
+  <section id="wines" class="wines">
+    <h2>Our Wines</h2>
+    <div class="wine-cards">
+      <div class="wine-card">
+        <img src="assets/images/wine1.jpg" alt="Red Wine">
+        <h3>Merlot Reserve</h3>
+        <p>$45.00</p>
+        <a href="cart.html" class="btn">Add to Cart</a>
+      </div>
+      <div class="wine-card">
+        <img src="assets/images/wine2.jpg" alt="White Wine">
+        <h3>Chardonnay Classic</h3>
+        <p>$39.00</p>
+        <a href="cart.html" class="btn">Add to Cart</a>
+      </div>
+      <div class="wine-card">
+        <img src="assets/images/wine3.jpg" alt="Rose Wine">
+        <h3>Rosé Delight</h3>
+        <p>$42.00</p>
+        <a href="cart.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="assets/images/gallery1.jpg" alt="Gallery 1">
+      <img src="assets/images/gallery1.jpg" alt="Gallery 2">
+      <img src="assets/images/gallery1.jpg" alt="Gallery 3">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Wine House, we blend tradition and innovation to craft exceptional wines from the finest grapes. Our passion lies in the art of winemaking — from vineyard to glass.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Visit us or book a tasting session today!</p>
+    <a href="mailto:info@winehouse.com" class="btn">Get in Touch</a>
+
+    <div class="social-icons">
+      <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/icons/twitter.png" alt="Twitter"></a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
